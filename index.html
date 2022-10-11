@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakOut Game In JS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body style="background-color: black; color: #fff;">
+    <div id="confetti-wrapper">
+    </div>
+    <center>
+        <div>
+           <b>-:Your Score:-</b>  <div id="score">0</div>
+        </div>
+       
+        <div>
+            <b id="waring" style="margin-top:30px"></b>
+        </div>
+
+    </center>
+    <div class="grid">
+    </div>
+    <center>
+        <div style="margin-top:360px ;">
+            <button id="ReStart" class="btn btn-success" name="ReStart" onclick="restart()">Re-Start Game</button>
+        </div>
+    </center>
+   
+    <script src="./assets/js/index1.js"></script>
+    <script>
+        function restart() {
+            location.reload();
+
+        }
+
+        
+    </script>
+</body>
+
+</html>
